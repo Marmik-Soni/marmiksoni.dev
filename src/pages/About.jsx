@@ -1,4 +1,5 @@
 import styles from "../styles/About.module.css";
+import ProfilePic from "/images/marmik_soni.png";
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
         {/* Middle flexbox */}
         <div className={styles.abtSectionContainer}>
           <img
-            src="/images/marmik_soni.png"
+            src={ProfilePic}
             alt="Marmik Soni"
             className={styles.imageAbout}
           />

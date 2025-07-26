@@ -1,4 +1,6 @@
 import styles from "../styles/MyWork.module.css";
+import proj1 from "/images/Proj1.png";
+import proj2 from "/images/Proj2.png";
 
 const MyWork = () => {
   return (
@@ -12,7 +14,7 @@ const MyWork = () => {
         <div className={styles.projectsContainer}>
           {/* project 1 */}
           <div className={styles.projectOne}>
-            <img src="/images/Proj1.png" alt="Proj1" />
+            <img src={proj1}alt="Proj1" />
             <div className={styles.projectOneDetails}>
               <h2>1. UniVeritas</h2>
               <p>
@@ -44,7 +46,7 @@ const MyWork = () => {
                   <button>Live Demo</button>
                 </div>
               </div>
-              <img src="/images/Proj2.png" alt="Proj1" />
+              <img src={proj2} alt="Proj1" />
             </div>
           </div>
 
