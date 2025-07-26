@@ -1,0 +1,96 @@
+.myWorkContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.myWorkContainer h1 {
+  background: linear-gradient(-90deg, #0c3d6b, #4770f7, #ee3a3a, #cf0c0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  width: 100%;
+  color: transparent;
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+
+.myWorkDetail {
+  margin-bottom: 60px;
+  font-size: 22px;
+}
+
+.myWorkContainer p {
+  font-weight: 500;
+  margin-top: -20px;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 50px;
+}
+
+.projectOne {
+  display: flex;
+  font-size: 1.3rem;
+  gap: 60px;
+}
+
+.projectOne img {
+  box-shadow: 2px 2px 25px rgba(5, 2, 163, 0.5);
+  border-radius: 15px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+  cursor: pointer;
+}
+
+.projectOne img:hover {
+  transform: translateY(-6px);
+  box-shadow: 3px 3px 25px rgba(3, 1, 78, 0.5);
+}
+
+.projectOneDetails {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  max-width: 400px;
+  font-weight: 500;
+  text-justify: inter-word;
+}
+
+.projectOneButtons {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.projectOneButtons button {
+  font-family: "General Sans", sans-serif;
+  border-radius: 50px;
+  padding: 10px 30px;
+  border: solid 1px #0c3d6b;
+  background-color: #0c3d6b;
+  color: #a6baf7;
+  font-size: 16px;
+  font-weight: 500;
+  transition: transform 0.6s ease;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.projectOneButtons button:hover {
+  transform: scale(1.07);
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.load-more-btn:hover .arrow {
+  transform: translateX(6px);
+}

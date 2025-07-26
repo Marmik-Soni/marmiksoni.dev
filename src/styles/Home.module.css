@@ -1,0 +1,52 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px 10px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.profileImage {
+  width: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 6px 38px rgba(0, 0, 0, 0.5);
+}
+
+.textContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.mainTitle {
+  font-size: 1.6rem;
+  margin-top: -20px;
+}
+
+.gradientText {
+  background: linear-gradient(90deg, #2969a5, #746dfa, #fa4545);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+.mainTitle h4 {
+  margin-top: -40px;
+}
+
+.description {
+  margin-top: -55px;
+  width: 70%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 30px;
+}

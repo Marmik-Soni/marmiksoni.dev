@@ -1,0 +1,104 @@
+.aboutContiner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  margin-bottom: 60px;
+}
+
+.aboutContiner h1 {
+  background: linear-gradient(-90deg, #0c3d6b, #4770f7, #ee3a3a, #cf0c0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  width: 100%;
+  color: transparent;
+  font-weight: 800;
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+}
+
+.abtSectionContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.imageAbout {
+  width: 320px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 10%;
+  box-shadow: 2px 2px 15px rgba(0, 10, 102, 0.5);
+}
+
+.textAndSkills {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.textAndSkills hr {
+  border: none;
+  height: 2px;
+  width: 100%;
+  max-width: 650px;
+  background: linear-gradient(to right,  #4770f7, #5a65fa, #fa4a4a);
+  margin-top: -10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.detailContainer {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.skillsContainer {
+  width: 100%;
+  max-width: 600px;
+  padding-right: 30px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+}
+
+.skill span {
+  flex: 0 0 120px;
+  font-weight: 500;
+  text-align: left;
+  font-size: 16px;
+}
+
+.progressBar {
+  flex: 1;
+  height: 8px;
+  background-color: #333;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(to right, #4770f7, #5a65fa, #fa4a4a);
+  border-radius: 20px;
+  transition: width 0.5s ease;
+}

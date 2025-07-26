@@ -1,0 +1,65 @@
+.practiceContianer {
+  display: flex;
+}
+
+.titleContainer {
+  margin-top: 40px;
+}
+
+.titleContainer h1 {
+  margin: 0;
+}
+
+.cardRow {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.rightCardContainer,
+.leftCardContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  gap: 20px;
+}
+
+.card h2,
+.card p {
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #2969a5;
+  color: #d9d5ff;
+  border-radius: 12px;
+  padding: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  height: 100px;
+  width: 400px;
+  transition: transform 0.5s ease, color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.card h2,
+.card p {
+  margin: 0;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  color: #ffe374;
+}
+
+.card p {
+  color: #d9d5ff;
+}
